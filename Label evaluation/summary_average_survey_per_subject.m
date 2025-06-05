@@ -6,15 +6,15 @@ clc;clear;
 addpath 'functions\'
 file_Results6Activities="Results_ALL6activities_0.75threshold_FULL_SURVEY2025-02-12 12-20-27_V3.csv";
 df_Results=importfileALL6activities(file_Results6Activities, [2, Inf]);
-%% ACTIVITY FILTER <<<<<<<<<<<<<< ------------------------------------UPDATE ACTIVIY HERE
+%% TOTAL Average number of surveys
 groupSums = grpstats(df_Results, 'file_name', 'sum', 'DataVars', 'number_questionnaires');
 mean_surveys = mean((groupSums.sum_number_questionnaires), 'omitnan');
 std_surveys = std((groupSums.sum_number_questionnaires), 'omitnan');
 fprintf('TOTAL Average number of surveys: %.1f%% (%.1f%%)\n', mean_surveys, std_surveys);
 fprintf('\n');
 
+%% Average number of surveys per class
 activities = ["sitting", "standing", "walking", "running", "exercising", "cycling"];
-
 for currentPA = activities
     average_number_surveys(df_Results, currentPA)
     fprintf('\n'); %
