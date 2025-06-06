@@ -14,7 +14,7 @@ Please cite the following paper in your publications if this repository helps yo
 
 ## Contact
 For any questions or inquiries, feel free to contact:
-- Luis Sigcha: [luis.sigcha@ul.ie](mailto: luis.sigcha@ul.ie)
+- Luis Sigcha: [luis.sigcha@ul.ie](mailto:luis.sigcha@ul.ie)
 
 
 
