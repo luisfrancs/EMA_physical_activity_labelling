@@ -10,7 +10,7 @@ This folder contains MATLAB scripts to compute accuracy (and other metrics) per 
 This folder contains a Python script to train and evaluate machine learning algorithms using the data generated through different data selection thresholds.
 
 ## Citation
-Please cite the following paper in your publications if this repository helps your research.
+Luis Sigcha, Annika Swenne, Jitka Kuhnova et al. Data Labelling for Free-Living Physical Activity Recognition using Thigh-Worn Wearables and Event-based Ecological Momentary Assessment, 05 August 2025, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-6835979/v1]
 
 ## Contact
 For any questions or inquiries, feel free to contact:
